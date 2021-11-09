@@ -1,0 +1,27 @@
+body {
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-color: rgb(243, 243, 243);
+    /* background-color: rgb(40, 63, 97); */
+}
+
+.bg {
+    background: url(./photo2.jpeg);
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: 100vh;
+    z-index: -1;
+    filter: blur(70px)
+}
+
+.loading-text {
+    font-size: 38px;
+    color: #fff;
+}

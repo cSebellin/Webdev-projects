@@ -1,0 +1,15 @@
+Install Git terminal 
+Mac : sudo dnf install git-all
+Debian ( such as Ubuntu ) : sudo apt install git-all
+
+Windows download file https://git-scm.com/download/win
+
+Installer extension pour terminal git Bash : https://marketplace.visualstudio.com/items?itemName=ziyasal.vscode-open-in-github
+
+Une fois le terminal installé sur VS
+git clone https://github.com/cSebellin/Webdev-projects.git
+
+Bibliographie : 
+https://git-scm.com/download/win
+https://marketplace.visualstudio.com/items?itemName=ziyasal.vscode-open-in-github
+https://gitforwindows.org/

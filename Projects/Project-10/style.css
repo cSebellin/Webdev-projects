@@ -1,0 +1,35 @@
+body {
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex: space-between;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: rgb(243, 243, 243);
+    overflow-x: hidden;
+    /* background-color: rgb(40, 63, 97); */
+}
+
+.box {
+    display: flex;
+    background-color: rgb(84, 30, 210);
+    padding: 3% 8%;
+    margin: 1%;
+    border-radius: 8px;
+    transform: translateX(200%);
+    transition: transform 1s ease;
+}
+
+.box h2 {
+    font-size: 28px;
+    color: #fff
+}
+
+.box.show {
+    transform: translateX(0%);
+}
+
+.box:nth-of-child(even) {
+    transform: translateX(-200%);
+}
