@@ -1,0 +1,3 @@
+#Les essentiels du web
+Trouver de la documentation sur internet c'est simple et infini, 
+mais lorsque que l'on commence, on s'y perd facilement et on ne sait pas où aller chercher l'info
